@@ -1,0 +1,22 @@
+{
+  "name": "ad-template-engine",
+  "version": "1.0.0",
+  "description": "A templating engine for html",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "build": "npm run clean && tsc",
+    "clean": "rimraf ./dist"
+  },
+  "keywords": [
+    "Template",
+    "engine"
+  ],
+  "author": "Adu Williams",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.1"
+  }
+}
